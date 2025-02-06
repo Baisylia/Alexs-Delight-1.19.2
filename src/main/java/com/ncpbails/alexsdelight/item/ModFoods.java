@@ -9,11 +9,11 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 public class ModFoods {
 
     //MEATS
-    public static final FoodProperties RAW_BISON = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.5F).meat().fast().build();
-    public static final FoodProperties COOKED_BISON = (new FoodProperties.Builder()).nutrition(10).saturationMod(1.0F).meat().fast().build();
-    public static final FoodProperties RAW_BUNFUNGUS = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.4F).meat().fast().build();
-    public static final FoodProperties COOKED_BUNFUNGUS = (new FoodProperties.Builder()).nutrition(7).saturationMod(0.7F).meat().fast().build();
-    public static final FoodProperties COOKED_CENTIPEDE_LEG = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.7F).meat().fast().build();
+    public static final FoodProperties RAW_BISON = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.5F).meat().build();
+    public static final FoodProperties COOKED_BISON = (new FoodProperties.Builder()).nutrition(10).saturationMod(1.0F).meat().build();
+    public static final FoodProperties RAW_BUNFUNGUS = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.4F).meat().build();
+    public static final FoodProperties COOKED_BUNFUNGUS = (new FoodProperties.Builder()).nutrition(7).saturationMod(0.7F).meat().build();
+    public static final FoodProperties COOKED_CENTIPEDE_LEG = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.7F).meat().build();
 
     //CUTS
     public static final FoodProperties KANGAROO_SHANK = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.2F).meat().fast().build();
